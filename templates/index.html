@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Emotion Engine</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Emotion Prediction</h1>
+        <div class="button-container">
+            <button id="start-btn" class="button">Start Recording</button>
+            <button id="stop-btn" class="button" disabled>Stop Recording</button>
+            <button id="play-btn" class="button" disabled>Play Recording</button>
+            <button id="predict-btn" class="button" disabled>Predict Emotion</button>
+        </div>
+        <p id="prediction-result"></p>
+        <p id="recording-status" class="status"></p>
+    </div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
